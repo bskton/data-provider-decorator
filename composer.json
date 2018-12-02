@@ -1,0 +1,16 @@
+{
+    "name": "bskton/data-provider-decorator",
+    "authors": [
+        {
+            "name": "Ilya Levin",
+            "email": "bskton@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/cache": "^1.0",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {"AppName\\": "src/refactored/"}
+    }
+}
